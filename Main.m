@@ -79,7 +79,7 @@ while (1==1)
         %% Feature Extraction
         % Convert to grayscale if image is RGB
         img = rgb2gray(seg_img);
-        %figure, imshow(img); title('Gray Scale Image');
+        figure, imshow(img); title('Gray Scale Image');
 
         % Create the Gray Level Cooccurance Matrices (GLCMs)
         glcms = graycomatrix(img);
