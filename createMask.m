@@ -12,7 +12,7 @@ function [BW,maskedRGBImage] = createMask(RGB)
 
 % Convert RGB image to chosen color space
 I = rgb2hsv(RGB);
-figure, imshow(I); title('HSV Image');
+%figure, imshow(I); title('HSV Image');
 
 % Define thresholds for channel 1 based on histogram settings
 channel1Min = 0.056;
