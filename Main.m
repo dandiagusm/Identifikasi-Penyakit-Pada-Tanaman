@@ -117,9 +117,7 @@ while (1==1)
 
         % Put the test features into variable 'test'
         test = feat_disease;
-        %result = multisvm(Train_Feat,Train_Label,test);
-        %disp(result);
-        result = 1;
+        result = multisvm(Train_Feat,Train_Label,test);
         
         %% Visualize Results
         if result == 1
